@@ -86,7 +86,7 @@ impl Component for Navigation {
         html! {
             <div class="container">
                 <nav class="nav-container">
-                    <p class="header">{"Ahmad, Shafiq"}</p>
+                    <p class="header">{"Sengupta, Abhishek"}</p>
                     <ul class="nav flex-column">
                         <li class="nav-item px-3">
                             <a class="nav-link active" onclick=&self.change_route(Routes::DashboardRoute)>
@@ -104,7 +104,7 @@ impl Component for Navigation {
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a target="_blank" href="https://github.com/ahmad2smile/" class="nav-link">
+                            <a target="_blank" href="https://github.com/silverfruitplayer/" class="nav-link">
                                 {"GitHub"}
                             </a>
                         </li>
